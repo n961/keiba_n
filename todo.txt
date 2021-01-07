@@ -1,0 +1,11 @@
+特徴量
+・外れ値削除
+・人気に対する差（裏切り度合い）
+・前回のレース系情報も相対化（標準化or正規化）
+・前回のレースの難易度スコア的なもの
+
+add_last_race_info(df_main)
+add_last_turf_info(df_main)
+add_last_arrival(df_main)
+add_last_speed(df_main)
+add_cluster_info(df_main)

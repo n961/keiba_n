@@ -1,0 +1,15 @@
+__pyhache__/
+.ipynb_checkpoints/
+.vscode/
+old/
+_old/
+logs/
+backup/
+resource/
+tmp/
+scoring/
+
+*.log
+
+driver_path.txt
+.env

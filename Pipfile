@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+importlib-metadata = "<3"
+jupyter = "*"
+jupyter-contrib-nbextensions = "*"
+jupyter-nbextensions-configurator = "*"
+jupytext = "*"
+jupyterlab = "*"
+nbdime = "*"
+papermill = "==1.2.1"
+
+numpy = "*"
+pandas = "*"
+scipy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+matplotlib-venn = "*"
+xgboost = "*"
+graphviz = "*"
+seaborn = "*"
+selenium = "*"
+line-bot-sdk = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[script]
+scoring = "code/application/scoring.py"
